@@ -7,8 +7,8 @@ const chats = [
         email: "john@example.com",
       },
       {
-        name: "Piyush",
-        email: "piyush@example.com",
+        name: "aman",
+        email: "aman@example.com",
       },
     ],
     _id: "617a077e18c25468bc7c4dd4",
@@ -22,8 +22,8 @@ const chats = [
         email: "guest@example.com",
       },
       {
-        name: "Piyush",
-        email: "piyush@example.com",
+        name: "aman",
+        email: "aman@kexample.com",
       },
     ],
     _id: "617a077e18c25468b27c4dd4",
@@ -38,7 +38,7 @@ const chats = [
       },
       {
         name: "Piyush",
-        email: "piyush@example.com",
+        email: "shubham@example.com",
       },
     ],
     _id: "617a077e18c2d468bc7c4dd4",
@@ -52,8 +52,8 @@ const chats = [
         email: "jon@example.com",
       },
       {
-        name: "Piyush",
-        email: "piyush@example.com",
+        name: "ravi",
+        email: "ravi@example.com",
       },
       {
         name: "Guest User",
@@ -75,8 +75,8 @@ const chats = [
         email: "jane@example.com",
       },
       {
-        name: "Piyush",
-        email: "piyush@example.com",
+        name: "ravi",
+        email: "ravi@example.com",
       },
     ],
     _id: "617a077e18c25468bc7cfdd4",
@@ -99,7 +99,7 @@ const chats = [
       },
     ],
     _id: "617a518c4081150016472c78",
-    chatName: "Chill Zone",
+    chatName: "Great team",
     groupAdmin: {
       name: "Guest User",
       email: "guest@example.com",
