@@ -11,17 +11,13 @@ dotenv.config();
 connectDB();
 const app = express();
 
-app.use(express.json()); // to accept json data
-
-// app.get("/", (req, res) => {
-//   res.send("API Running!");
-// });
+app.use(express.json()); 
 
 app.use("/api/user", userRoutes);
 app.use("/api/chat", chatRoutes);
 app.use("/api/message", messageRoutes);
 
-// --------------------------deployment------------------------------
+
 
 const __dirname1 = path.resolve();
 
@@ -37,9 +33,9 @@ if (process.env.NODE_ENV === "production") {
   });
 }
 
-// --------------------------deployment------------------------------
 
-// Error Handling middlewares
+
+
 app.use(notFound);
 app.use(errorHandler);
 
@@ -54,7 +50,7 @@ const io = require("socket.io")(server, {
   pingTimeout: 60000,
   cors: {
     origin: "http://localhost:3000",
-    // credentials: true,
+  
   },
 });
 
